@@ -1,0 +1,60 @@
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top: 12%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2% 12%;
+    border-radius: 20px;
+   
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 30%;
+}
+h1{
+    color: #00dd00;
+}
+  .buttons{
+    background-color: #00dd00;
+    text-align: center;
+    border: 10px solid #00dd00;
+  }
+
+  /* Monopattini disponibili */
+  .paragrafo-monopattino{
+    color: white;
+  }
+  #monopattino{
+    display: inline-block;
+    font-size: x-large;
+  }
+  .barra-gialla{
+    width: 30%;
+    height: 25px;
+    background-color: #f6b455;
+    border-radius: 7px;
+  }
+  .barra-verde{
+    width: 55%;
+    height: 25px;
+    background-color: #1ec31e;
+    border-radius: 7px;
+  }
+  .barra-rossa{
+    width: 12%;
+    height: 25px;
+    background-color: #be4140;
+    border-radius: 7px;
+  }
